@@ -111,15 +111,6 @@ h2 {
   padding-top: 0;
 }
 
-/* Section title */
-.section-title {
-  font-size: 1.8rem;
-  font-weight: 600;
-  border-left: 4px solid #38bdf8;
-  padding-left: 12px;
-  margin-bottom: 20px;
-}
-
 /* Section description */
 .section-desc {
   font-size: 1rem;
