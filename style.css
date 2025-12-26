@@ -179,18 +179,3 @@ footer {
     margin: 0 10px;
   }
 }
-
-/* Fix extra spacing around Services section */
-#services {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#services .container {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-#services h2 {
-  margin-top: 0;
-}
