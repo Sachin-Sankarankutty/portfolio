@@ -66,34 +66,22 @@ footer {
   color: #94a3b8;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
-  color: #333;
-  line-height: 1.6;
-}
-
 
 /* SERVICES SECTION */
 #services {
   padding: 80px 0;
 }
 
-/* reuse SAME container */
+/* Use same container size as rest of site */
 #services .container {
   max-width: 800px;
+  margin: auto;
   padding: 0 20px;
 }
 
-/* TITLE */
+/* Section title - same style as others */
 .section-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   border-left: 4px solid #38bdf8;
   padding-left: 12px;
@@ -107,24 +95,24 @@ body {
   margin-bottom: 40px;
 }
 
-/* SERVICES GRID */
+/* Cards layout */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
 }
 
-/* SERVICE CARD */
+/* Service card */
 .service-card {
   background: #020617;
   border: 1px solid #1e293b;
-  padding: 24px;
+  padding: 22px;
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
 
 .service-card h3 {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   margin-bottom: 10px;
   color: #e5e7eb;
 }
@@ -134,7 +122,7 @@ body {
   color: #94a3b8;
 }
 
-/* HOVER EFFECT */
+/* Hover effect */
 .service-card:hover {
   border-color: #38bdf8;
   transform: translateY(-4px);
