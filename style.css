@@ -65,3 +65,87 @@ footer {
   font-size: 0.85rem;
   color: #94a3b8;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* SERVICES SECTION */
+#services {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* TITLE */
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  border-left: 5px solid #000;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.section-desc {
+  max-width: 800px;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+/* SERVICES GRID */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* SERVICE CARD */
+.service-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #4caf50;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* HOVER EFFECT */
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-desc {
+    font-size: 16px;
+  }
+}
